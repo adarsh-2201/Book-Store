@@ -1,5 +1,4 @@
 import React from 'react'
-import list from "../../public/list.json"
 function Cards({item}) {
     return (
         <>
@@ -7,7 +6,7 @@ function Cards({item}) {
                 <div className="card bg-base-100 w-92 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
                     <figure>
                         <img
-                            src="../Banner.jpg"
+                            src={`../../public/${item.id}.jpeg`}
                             alt="books" />
                     </figure>
                     <div className="card-body">

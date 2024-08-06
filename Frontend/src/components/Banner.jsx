@@ -1,6 +1,7 @@
 import React from 'react'
 
 import banner from "../../public/Banner.jpg"
+import { Link } from 'react-router-dom'
 function Banner() {
     return (<>
         <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 flex flex-col md:flex-row my-10'>
@@ -11,7 +12,7 @@ function Banner() {
                         Hello, Welcome here to learn something <span className='text-pink-500'>new everyday!!!</span>
                     </h1>
                     <p className='text-xl'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa laborum, ex labore voluptate rem esse dolorem ipsa sint qui consequuntur quidem veritatis? Quasi omnis ipsum accusantium dolore fuga cumque nulla?
+                    We're excited to bring the joy of reading directly to your screen. Explore our extensive collection of books, from the latest bestsellers to timeless classics, all from the comfort of your home. Whether you're an avid reader or just discovering the magic of books, we're here to help you find your next great read. Happy browsing, and welcome to a world of endless literary adventures!
                     </p>
                     <label className="input input-bordered flex items-center gap-2">
                         <svg
@@ -27,7 +28,7 @@ function Banner() {
                         <input type="text" className="grow" placeholder="Enter your email to login..." />
                     </label>
                 </div>
-                <button className="btn btn-secondary mt-6">Secondary</button>
+                <Link className="btn btn-secondary mt-6" to="/signup"> Get Started </Link>
             </div>
             <div className='order-1 w-full md:w-1/2'> 
             <img src={banner} alt="banner" className='w-92 h-92 '/>
