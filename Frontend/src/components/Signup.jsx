@@ -72,7 +72,7 @@ function Signup() {
                         </div>
                         <div className='flex justify-around mt-4'>
                             <button className='bg-pink-500 text-lg text-white rounded-md px-3 py-1 hover:bg-pink-700 duration-200 cursor-pointer'>Signup</button>
-                            <p>Have an account?
+                            <p className='dark:text-black'>Have an account?{" "}
                                 <button className='underline text-blue-500 cursor-pointer' onClick={() => document.getElementById("my_modal_3").showModal()}>
                                     Login
                                 </button>{" "}

@@ -6,7 +6,7 @@ function Cards({item}) {
                 <div className="card bg-base-100 w-92 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
                     <figure>
                         <img
-                            src={`../../public/${item.id}.jpeg`}
+                            src={`../../${item.id}.jpeg`}
                             alt="books" />
                     </figure>
                     <div className="card-body">
