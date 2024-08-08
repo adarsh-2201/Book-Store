@@ -69,7 +69,7 @@ ___
 ### *Free Books*
 ![Free](./Previews/m-Free.jpg)
 ### *Course*
-![Course](./Previews/m-Course.jpg)
+![Course](./Previews/m-Courses.jpg)
 ### *About*
 ![About](./Previews/m-About.jpg)
 ### *Login*
