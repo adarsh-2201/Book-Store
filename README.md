@@ -80,8 +80,8 @@ ___
 
 ## **Download Links** : 
 You can access my project from your local machine !
->https : https://github.com/adarsh-2201/Book-Store
+>https : https://github.com/ashish-2201/Book-Store
 ```bash
-    git clone https://github.com/adarsh-2201/Book-Store.git
+    git clone https://github.com/ashish-2201/Book-Store.git
 ```
 ___
